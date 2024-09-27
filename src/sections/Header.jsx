@@ -1,10 +1,13 @@
 import { Link as LinkScroll } from "react-scroll";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
+import LanguageSelector from "../components/LanguageSelector";
+import { useTranslation } from "react-i18next"; // Import the useTranslation hook
 
 const Header = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation(); // Use the useTranslation hook
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,7 +31,7 @@ const Header = () => {
       activeClass="nav-active"
       className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5"
     >
-      {title}
+      {t(`header.${title}`)} {/* Translate the navigation titles */}
     </LinkScroll>
   );
 
@@ -40,16 +43,16 @@ const Header = () => {
       )}
     >
       <div className="container flex h-14 items-center max-lg:px-5">
-    {/* Logo container */}
-    <a className="lg:hidden flex-1 cursor-pointer z-2 mt-12">
-      <img
-        src="/images/logo.png"
-        width={105}
-        height={55}
-        alt="logo"
-        className="object-contain h-full" // Ensure the image scales within the container
-      />
-    </a>
+        {/* Logo container */}
+        <a className="lg:hidden flex-1 cursor-pointer z-2 mt-12">
+          <img
+            src="/images/logo.png"
+            width={105}
+            height={55}
+            alt="logo"
+            className="object-contain h-full" // Ensure the image scales within the container
+          />
+        </a>
 
         <div
           className={clsx(
@@ -123,6 +126,7 @@ const Header = () => {
             className="size-1/2 object-contain"
           />
         </button>
+        <LanguageSelector /> {/* Language Selector */}
       </div>
     </header>
   );

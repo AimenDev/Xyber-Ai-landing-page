@@ -1,0 +1,22 @@
+{
+  "header": {
+    "features": "الميزات",
+    "pricing": "التسعير",
+    "faq": "الأسئلة الشائعة",
+    "download": "تنزيل"
+  },
+  "hero": {
+    "videoEditing": "تحرير الفيديو",
+    "amazinglySimple": "بسيط للغاية",
+    "description": "قمنا بتصميم",
+    "videoEditorDescription": "محرر الفيديو ليكون سهل الاستخدام وسريع التعلم وقوي بشكل مدهش.",
+    "tryNow": "جربه الآن"
+  },
+  "pricing": {
+    "title": "أسعار مرنة للفرق من جميع الأحجام",
+    "monthly": "شهري",
+    "annual": "سنوي",
+    "limitedTimeOffer": "عرض لفترة محدودة",
+    "getStarted": "ابدأ"
+  }
+}

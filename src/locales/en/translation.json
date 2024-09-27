@@ -1,0 +1,22 @@
+{
+  "header": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "download": "Download"
+  },
+  "hero": {
+    "videoEditing": "Video Editing",
+    "amazinglySimple": "Amazingly simple",
+    "description": "We designed",
+    "videoEditorDescription": "Video Editor to be an easy to use, quick to learn, and surprisingly powerful.",
+    "tryNow": "Try it now"
+  },
+  "pricing": {
+    "title": "Flexible pricing for teams of all sizes",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "limitedTimeOffer": "Limited time offer",
+    "getStarted": "Get Started"
+  }
+}

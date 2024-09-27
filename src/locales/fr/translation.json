@@ -1,0 +1,22 @@
+{
+  "header": {
+    "features": "Caractéristiques",
+    "pricing": "Tarification",
+    "faq": "FAQ",
+    "download": "Télécharger"
+  },
+  "hero": {
+    "videoEditing": "Montage vidéo",
+    "amazinglySimple": "Incroyablement simple",
+    "description": "Nous avons conçu",
+    "videoEditorDescription": "Éditeur vidéo pour être facile à utiliser, rapide à apprendre et étonnamment puissant.",
+    "tryNow": "Essayez-le maintenant"
+  },
+  "pricing": {
+    "title": "Tarification flexible pour des équipes de toutes tailles",
+    "monthly": "Mensuel",
+    "annual": "Annuel",
+    "limitedTimeOffer": "Offre à durée limitée",
+    "getStarted": "Commencer"
+  }
+}
